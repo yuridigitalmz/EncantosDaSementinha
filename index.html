@@ -104,20 +104,6 @@
   .grelha-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
   .grelha-fotos img { width: 100%; height: 200px; object-fit: cover; border-radius: var(--raio); }
 
-  .rosa-natural-caixa {
-    display: flex; align-items: center; gap: 20px;
-    border: 1px solid var(--linha); border-radius: var(--raio); background: var(--cartao);
-    padding: 22px;
-  }
-  .rosa-natural-caixa .preco-unidade { font-family: var(--serif); font-size: 1.3rem; color: var(--rosa); font-weight: 700; }
-  .rosa-natural-caixa p { font-size: 0.88rem; color: var(--texto-suave); margin-top: 4px; }
-  .exemplos-rosa-natural { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
-  .exemplo-chip {
-    text-decoration: none; font-size: 0.85rem; font-weight: 600; color: var(--texto);
-    border: 1px solid var(--dourado); border-radius: 30px; padding: 7px 16px;
-  }
-  .exemplo-chip:hover { background: var(--rosa-clara); }
-
   /* ---------- Localização / contacto ---------- */
   .contacto-caixa { text-align: center; }
   .contacto-caixa .linha { margin-bottom: 8px; font-size: 1rem; }
@@ -238,19 +224,82 @@
 
     <div class="categoria-titulo">Rosas Naturais</div>
     <div class="grelha-fotos" style="margin-bottom: 16px;">
-      <img src="rosas-naturais.jpg" alt="Buquê de rosas naturais cor-de-rosa" loading="lazy">
+      <img src="rosas-naturais-brancas.jpg" alt="Buquê de rosas naturais brancas" loading="lazy">
+      <img src="rosas-naturais-vermelhas.jpg" alt="Buquê de rosas naturais vermelhas" loading="lazy">
+      <img src="rosas-naturais-pink.jpg" alt="Buquê de rosas naturais cor-de-rosa" loading="lazy">
+      <img src="rosas-naturais-amarelas.jpg" alt="Buquê de rosas naturais amarelas" loading="lazy">
+      <img src="rosas-naturais.jpg" alt="Buquê de rosas naturais cor-de-rosa com borboleta" loading="lazy">
     </div>
-    <div class="rosa-natural-caixa">
-      <div>
-        <div class="preco-unidade">100 MT <span style="font-size:0.75rem; color: var(--texto-suave); font-weight:400;">/ cada</span></div>
-        <p>Rosa natural, vendida à unidade — escolhe a quantidade que quiseres.</p>
-      </div>
+  </div>
+</section>
+
+<section id="precos-naturais">
+  <div class="wrap">
+    <h2 class="titulo-seccao">Rosas Naturais — Tabela de Preços</h2>
+    <p class="subtitulo-seccao">Rosas frescas, à escolha da cor disponível no dia. Toca num preço para encomendar.</p>
+
+    <div class="categoria-titulo" style="margin-top:0;">Buquê Pequeno</div>
+    <div class="tabela-precos">
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20de%202%20rosas%20naturais">
+        <span class="qtd">2 rosas</span><span class="preco">450 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20de%203%20rosas%20naturais">
+        <span class="qtd">3 rosas</span><span class="preco">600 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20de%205%20rosas%20naturais">
+        <span class="qtd">5 rosas</span><span class="preco">800 MT</span>
+      </a>
     </div>
-    <div class="exemplos-rosa-natural">
-      <a class="exemplo-chip" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%201%20rosa%20natural">1 rosa · 100 MT</a>
-      <a class="exemplo-chip" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%203%20rosas%20naturais">3 rosas · 300 MT</a>
-      <a class="exemplo-chip" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%205%20rosas%20naturais">5 rosas · 500 MT</a>
-      <a class="exemplo-chip" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%2010%20rosas%20naturais">10 rosas · 1.000 MT</a>
+
+    <div class="categoria-titulo">Buquê Simples</div>
+    <div class="tabela-precos">
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20simples%20de%2010%20rosas%20naturais">
+        <span class="qtd">10 rosas</span><span class="preco">1.400 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20simples%20de%2015%20rosas%20naturais">
+        <span class="qtd">15 rosas</span><span class="preco">1.900 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20simples%20de%2020%20rosas%20naturais">
+        <span class="qtd">20 rosas</span><span class="preco">2.400 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20simples%20de%2025%20rosas%20naturais">
+        <span class="qtd">25 rosas</span><span class="preco">2.900 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20simples%20de%2030%20rosas%20naturais">
+        <span class="qtd">30 rosas</span><span class="preco">3.500 MT</span>
+      </a>
+    </div>
+
+    <div class="categoria-titulo">Buquê Misto <span style="font-weight:400; font-size:0.8rem; color: var(--texto-suave);">— rosas + mistura básica + cartão</span></div>
+    <div class="tabela-precos">
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20misto%20de%2010%20rosas">
+        <span class="qtd">10 rosas</span><span class="preco">1.900 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20misto%20de%2015%20rosas">
+        <span class="qtd">15 rosas</span><span class="preco">2.400 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20misto%20de%2020%20rosas">
+        <span class="qtd">20 rosas</span><span class="preco">2.900 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20misto%20de%2025%20rosas">
+        <span class="qtd">25 rosas</span><span class="preco">3.400 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20um%20buqu%C3%AA%20misto%20de%2030%20rosas">
+        <span class="qtd">30 rosas</span><span class="preco">4.000 MT</span>
+      </a>
+    </div>
+
+    <div class="categoria-titulo">Adicionais</div>
+    <div class="tabela-precos">
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20adicionar%20uma%20coroa%20de%20flores">
+        <span class="qtd">Coroa de flores</span><span class="preco">70 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20adicionar%20um%20urso%20de%20pel%C3%BAcia">
+        <span class="qtd">Urso de pelúcia</span><span class="preco">350 MT</span>
+      </a>
+      <a class="linha-preco" href="https://wa.me/258850399182?text=Ol%C3%A1%2C%20quero%20adicionar%20um%20cart%C3%A3o">
+        <span class="qtd">Cartão</span><span class="preco">50 MT</span>
+      </a>
     </div>
   </div>
 </section>
